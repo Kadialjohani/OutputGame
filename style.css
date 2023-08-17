@@ -1,0 +1,12 @@
+.fullPage {
+    display: flex;
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+/* .container {
+   border: 20px solid pink;
+}
+input {
+    background-color: blue;
+} */
