@@ -1,12 +1,14 @@
 .fullPage {
-    display: flex;
-    background-color: aquamarine;
+    background: linear-gradient(#e66465, #9198e5);
     height: 100vh;
 }
 
-/* .container {
-   border: 20px solid pink;
+.hide {
+    display: none;
 }
-input {
-    background-color: blue;
-} */
+.correct {
+    background-color: aquamarine;
+}
+.wrong {
+    background-color: red;
+}
