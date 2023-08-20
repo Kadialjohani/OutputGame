@@ -16,11 +16,11 @@ const beginnerLevel = [
         code:  "./beginner/ex1.PNG",
         options : [
             {
-                answer: "45", 
+                answer: "Sara, Abeer, Nada", 
                 correct: false
             },
             {
-                answer: "undefined", 
+                answer: "error", 
                 correct: false
             },
             {
@@ -28,7 +28,7 @@ const beginnerLevel = [
                 correct: true
             },
             {
-                answer: "false", 
+                answer: "totalStudents", 
                 correct: false
             },
         ]
@@ -41,15 +41,15 @@ const beginnerLevel = [
                 correct: true
             },
             {
-                answer: "error", 
-                correct: false
-            },
-            {
                 answer: "65", 
                 correct: false
             },
             {
-                answer: "'z' is not defined", 
+                answer: "z", 
+                correct: false
+            },
+            {
+                answer: "undefined", 
                 correct: false
             },
         ]
@@ -58,7 +58,7 @@ const beginnerLevel = [
         code: "./beginner/ex3.PNG",
         options : [
             {
-                answer: "name", 
+                answer: "khalid", 
                 correct: false
             },
             {
@@ -66,7 +66,7 @@ const beginnerLevel = [
                 correct: false
             },
             {
-                answer: "khalid", 
+                answer: "name", 
                 correct: false
             },
             {
@@ -79,7 +79,7 @@ const beginnerLevel = [
         code: "./beginner/ex4.PNG",
         options : [
             {
-                answer: "50 * 3", 
+                answer: "130", 
                 correct: false
             },
             {
@@ -87,11 +87,11 @@ const beginnerLevel = [
                 correct: true
             },
             {
-                answer: "x", 
+                answer: "50 * 3", 
                 correct: false
             },
             {
-                answer: "130", 
+                answer: "x", 
                 correct: false
             },
         ]
@@ -104,11 +104,11 @@ const beginnerLevel = [
                 correct: false
             },
             {
-                answer: "error", 
+                answer: "string", 
                 correct: false
             },
             {
-                answer: "string", 
+                answer: "error", 
                 correct: false
             },
             {
@@ -122,94 +122,10 @@ const beginnerLevel = [
 // lvl2
 const intermediateLevel = [
     {
-        code:  "./beginner/ex1.PNG",
+        code:  "./intermediate/ex1.PNG",
         options : [
             {
-                answer: "int", 
-                correct: false
-            },
-            {
-                answer: "int", 
-                correct: false
-            },
-            {
-                answer: "h", 
-                correct: true
-            },
-            {
-                answer: "f", 
-                correct: false
-            },
-        ]
-    },
-    {
-        code:  "./beginner/ex2.PNG",
-        options : [
-            {
-                answer: "11", 
-                correct: true
-            },
-            {
-                answer: "error", 
-                correct: false
-            },
-            {
-                answer: "65", 
-                correct: false
-            },
-            {
-                answer: "'z' is not defined", 
-                correct: false
-            },
-        ]
-    },
-    {
-        code: "./beginner/ex3.PNG",
-        options : [
-            {
-                answer: "name", 
-                correct: false
-            },
-            {
-                answer: "ahmed", 
-                correct: false
-            },
-            {
-                answer: "khalid", 
-                correct: false
-            },
-            {
-                answer: "error", 
-                correct: true
-            },
-        ]
-    },
-    {
-        code: "./beginner/ex4.PNG",
-        options : [
-            {
-                answer: "50 * 3", 
-                correct: false
-            },
-            {
-                answer: "150", 
-                correct: true
-            },
-            {
-                answer: "x", 
-                correct: false
-            },
-            {
-                answer: "130", 
-                correct: false
-            },
-        ]
-    },
-    {
-        code: "./beginner/ex5.PNG",
-        options : [
-            {
-                answer: "any", 
+                answer: "Sara, Abeer, Nada", 
                 correct: false
             },
             {
@@ -217,11 +133,95 @@ const intermediateLevel = [
                 correct: false
             },
             {
-                answer: "string", 
+                answer: "3", 
+                correct: true
+            },
+            {
+                answer: "totalStudents", 
+                correct: false
+            },
+        ]
+    },
+    {
+        code:  "./intermediate/ex2.PNG",
+        options : [
+            {
+                answer: "0 1 3 4", 
+                correct: true
+            },
+            {
+                answer: "0 1", 
+                correct: false
+            },
+            {
+                answer: "1 2 3 4 5", 
+                correct: false
+            },
+            {
+                answer: "0 1 2 3 4", 
+                correct: false
+            },
+        ]
+    },
+    {
+        code: "./intermediate/ex3.PNG",
+        options : [
+            {
+                answer: "error", 
+                correct: false
+            },
+            {
+                answer: "2", 
+                correct: false
+            },
+            {
+                answer: "3", 
+                correct: false
+            },
+            {
+                answer: "4", 
+                correct: true
+            },
+        ]
+    },
+    {
+        code: "./intermediate/ex4.PNG",
+        options : [
+            {
+                answer: "Hello Hello Hello Hello", 
+                correct: false
+            },
+            {
+                answer: "Hello", 
+                correct: true
+            },
+            {
+                answer: "undefined", 
+                correct: false
+            },
+            {
+                answer: "Hello Hello Hello Hello Hello ", 
+                correct: false
+            },
+        ]
+    },
+    {
+        code: "./intermediate/ex5.PNG",
+        options : [
+            {
+                answer: "hi", 
+                correct: false
+            },
+            {
+                answer: "welcome()", 
                 correct: false
             },
             {
                 answer: "undefined", 
+                correct: false
+            },
+            {
+                answer: "error", 
                 correct: true
             },
         ]
@@ -231,94 +231,10 @@ const intermediateLevel = [
 // lvl3
 const advancedLevel = [
     {
-        code:  "./beginner/ex1.PNG",
+        code:  "./advanced/ex1.PNG",
         options : [
             {
-                answer: "add", 
-                correct: false
-            },
-            {
-                answer: "", 
-                correct: false
-            },
-            {
-                answer: "", 
-                correct: true
-            },
-            {
-                answer: "", 
-                correct: false
-            },
-        ]
-    },
-    {
-        code:  "./beginner/ex2.PNG",
-        options : [
-            {
-                answer: "11", 
-                correct: true
-            },
-            {
-                answer: "error", 
-                correct: false
-            },
-            {
-                answer: "65", 
-                correct: false
-            },
-            {
-                answer: "'z' is not defined", 
-                correct: false
-            },
-        ]
-    },
-    {
-        code: "./beginner/ex3.PNG",
-        options : [
-            {
-                answer: "name", 
-                correct: false
-            },
-            {
-                answer: "ahmed", 
-                correct: false
-            },
-            {
-                answer: "khalid", 
-                correct: false
-            },
-            {
-                answer: "error", 
-                correct: true
-            },
-        ]
-    },
-    {
-        code: "./beginner/ex4.PNG",
-        options : [
-            {
-                answer: "50 * 3", 
-                correct: false
-            },
-            {
-                answer: "150", 
-                correct: true
-            },
-            {
-                answer: "x", 
-                correct: false
-            },
-            {
-                answer: "130", 
-                correct: false
-            },
-        ]
-    },
-    {
-        code: "./beginner/ex5.PNG",
-        options : [
-            {
-                answer: "any", 
+                answer: "10", 
                 correct: false
             },
             {
@@ -326,11 +242,95 @@ const advancedLevel = [
                 correct: false
             },
             {
-                answer: "string", 
+                answer: "3", 
+                correct: true
+            },
+            {
+                answer: "12", 
+                correct: false
+            },
+        ]
+    },
+    {
+        code:  "./advanced/ex2.PNG",
+        options : [
+            {
+                answer: "Batman Superman", 
+                correct: true
+            },
+            {
+                answer: "Batman", 
+                correct: false
+            },
+            {
+                answer: "Superman", 
+                correct: false
+            },
+            {
+                answer: "error", 
+                correct: false
+            },
+        ]
+    },
+    {
+        code: "./advanced/ex3.PNG",
+        options : [
+            {
+                answer: "true", 
+                correct: false
+            },
+            {
+                answer: "error", 
                 correct: false
             },
             {
                 answer: "undefined", 
+                correct: false
+            },
+            {
+                answer: "false", 
+                correct: true
+            },
+        ]
+    },
+    {
+        code: "./advanced/ex4.PNG",
+        options : [
+            {
+                answer: "nothing", 
+                correct: false
+            },
+            {
+                answer: "d", 
+                correct: true
+            },
+            {
+                answer: "H e l l o  w o r l d", 
+                correct: false
+            },
+            {
+                answer: "'Hello' 'world'", 
+                correct: false
+            },
+        ]
+    },
+    {
+        code: "./advanced/ex5.PNG",
+        options : [
+            {
+                answer: "false false", 
+                correct: false
+            },
+            {
+                answer: "true true", 
+                correct: false
+            },
+            {
+                answer: "true false", 
+                correct: false
+            },
+            {
+                answer: "false true", 
                 correct: true
             },
         ]
@@ -415,6 +415,7 @@ function nextCode() {
 function showCode(code){
     //loop img
     img.src = code.code;
+
     // loop answers
     code.options.forEach(answer => {
         const button = document.createElement("button");
@@ -442,7 +443,7 @@ function selected(e) {
     const correct = userSelect.dataset.correct
 
     if (correct) {
-        // userSelect.classList.add("correct")
+        
         userSelect.className = 'border border-white border-1 p-3 rounded m-2 w-50 btn btn-success'
         score += 1
   
@@ -460,23 +461,27 @@ function selected(e) {
         next.classList.remove('hide'); 
       }
       else {
-        restartbtn.classList.remove('hide')
+        restartbtn.classList.remove('hide');
+
+
         console.log(score);
-        
-        // beginner.className = 'w-50 rounded'
+        if(score >= 3) {
+            Swal.fire({
+                title: `Your Score: ${score}/5`,   
+                imageUrl: 'meme3.jpeg',
+                imageWidth: 400,
+                imageHeight: 400,
+                imageAlt: 'Custom image',
+              })
+        }
+        else {
+            Swal.fire({
+                title: `Your Score: ${score}/5 &#128078. Try Again`,
+                imageUrl: 'meme4.jpg',
+                imageWidth: 400,
+                imageHeight: 400,
+                imageAlt: 'Custom image',
+              })
+        }
       }
-      
-
-      
-
-    
 }
-
-// function setColor(el, correct) {
-//     clearColor(answer)
-// }
-
-// function clearColor(el) {
-
-// }
-
