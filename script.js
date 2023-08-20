@@ -16,7 +16,7 @@ const beginnerLevel = [
         code:  "./beginner/ex1.PNG",
         options : [
             {
-                answer: "Sara, Abeer, Nada", 
+                answer: "undefined", 
                 correct: false
             },
             {
@@ -28,7 +28,7 @@ const beginnerLevel = [
                 correct: true
             },
             {
-                answer: "totalStudents", 
+                answer: "22", 
                 correct: false
             },
         ]
@@ -477,7 +477,7 @@ function selected(e) {
         else {
             Swal.fire({
                 title: `Your Score: ${score}/5 &#128078. Try Again`,
-                imageUrl: 'meme4.jpg',
+                imageUrl: 'meme2.jpeg',
                 imageWidth: 400,
                 imageHeight: 400,
                 imageAlt: 'Custom image',
